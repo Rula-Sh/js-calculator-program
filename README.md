@@ -4,23 +4,32 @@ A sleek and interactive JavaScript calculator that performs basic arithmetic ope
 
 ## Features ✨
 
-- Basic operations - Addition (+), Subtraction (-), Multiplication (*), Division (/), and Modulus (%)
-- Delete last value - Backspace functionality to correct mistakes
-- Answer memory - Use the last calculated answer in new expressions
-- Clean interface - Responsive design with visual feedback
+- **Basic operations** - Addition (`+`), Subtraction (`-`), Multiplication (`*`), Division (`/`), and Modulus (`%`)
+- **Answer memory** - Use last calculated answer in new expressions
+- **Toggle positive/negative** - switch between positive and negative numbers
+- **Keyboard support** - Perform calculations using keyboard input for faster interaction
+- **Input validation** - Prevent inserting invalid characters
+- **Delete last value** - Multiple ways to delete:
+  - 'C' button on the calculator interface
+  - 'Backspace' key on keyboard
+  - 'c' key on keyboard
+- **Clean interface** - Responsive design with visual feedback
 
 ## Key Concepts Used 🧩
 
 - DOM selection `document.getElementById()`
 - Event Handling `.addEventListener()`
 - Value Reading/Writing `.value`
-- Conditional logic `if/else` 
-- String Operations `.replaceAll()`, `substring()`, `.charAt()`, `.length`
+- Conditional logic `if/else`
+- String Operations `substring()`, `.length`, `.charAt()`, `includes()`, `.lastIndexOf`, `.replaceAll()`
 - Error Handling `try/catch` blocks
-- Number Validation `Number.isInteger()` and `Number()` conversion
+- Number Validation & Conversion `Number.isInteger()` `Number()`
 - Scroll Management `scrollLeft` `scrollWidth`
-- Expression Evaluation `eval()` for mathematical calculations
+- Expression Evaluation `eval()`
 - Ternary Operator `condition ? value1 : value2`
+- Keyboard Events `e.key` `e.preventDefault()`
+- Input Validation `regex.test()`
+- Track Active Element `document.activeElement`
 
 ## Programming Languages Used 🛠️
 
@@ -31,9 +40,3 @@ A sleek and interactive JavaScript calculator that performs basic arithmetic ope
 ## Screenshot 📸
 
 ![Screenshot of Calculator interface](img/js-calculator-program-screenshot.png)
-
-
-## Planned Features 🚀
-
-- Add functionality to ± button to toggle between positive and negative numbers
-- Enable users to calculate using keyboard input
